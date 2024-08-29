@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     tar \
     build-essential \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 # 下载并安装 Go 1.13.6
